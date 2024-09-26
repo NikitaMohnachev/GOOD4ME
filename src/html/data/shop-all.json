@@ -1,0 +1,26 @@
+[
+    {
+        "img": "01",
+        "desc": "HAIR, SKIN & NAILS)",
+        "newPrice": "39.95",
+        "oldPrice": "99.50"
+    },
+    {
+        "img": "02",
+        "desc": "DETOX + BLOAT SUPPORT VALUE PACK",
+        "newPrice": "55.50",
+        "oldPrice": "100.75"
+    },
+    {
+        "img": "03",
+        "desc": "GUT HEALTH + BLOAT SUPPORT",
+        "newPrice": "89.65",
+        "oldPrice": "99.87"
+    },
+    {
+        "img": "04",
+        "desc": "APPLE CIDER VINEGAR",
+        "newPrice": "28.50",
+        "oldPrice": "50"
+    }
+]

@@ -1,0 +1,39 @@
+.specials-collections {
+    margin-top: 96px;
+}
+
+.specials-collections__title-1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 89%;
+    color: var(--000000);
+}
+
+.specials-collections__border{
+    width: 127px;
+    height: 4px;
+    margin: auto;
+
+    background: var(--f6623e);
+}
+
+.specials-collections__title-2 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--454545);
+}
+
+.specials-collections__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 36px;
+}

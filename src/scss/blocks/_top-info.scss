@@ -1,0 +1,42 @@
+.top-info {
+    padding: 12px 0 12px;
+
+    background: var(--f6623e);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--ffffff);
+
+    a{
+        color: var(--ffffff);
+    }
+
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.top-info__account {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-info__account-border{
+    border: 1px solid var(--ffffff);
+    width: 1px;
+    height: 27px;
+    opacity: 0.3;
+}
+
+.top-info__account-desc {
+    display: flex;
+	align-items: center;
+}
+
+.account__usd{
+    padding: 0 3px 0 6px;
+}

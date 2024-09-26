@@ -1,0 +1,16 @@
+<div class="swiper-slide">
+    <h1 class="swiper-slide__title-1">@@title-1</h1>
+    <h2 class="swiper-slide__title-2">@@title-2</h2>
+    
+    <div class="swiper-wrapper__rating">
+        @@for (var i = 0; i < context.rating; i++){
+            <svg class="icon icon--star-on">
+                <use href="./img/svgsprite/sprite.symbol.svg#star-on"></use>
+            </svg>
+        }
+    </div>
+
+    <p class="swiper-slide__desc">“@@desc”
+    </p>
+    <span class="user">@@user</span>
+</div>

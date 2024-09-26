@@ -1,0 +1,52 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 22px;
+	height: 22px;
+}
+
+.icon--search{
+	fill: #000;
+}
+
+.icon--cart{
+	fill: #000;
+}
+
+.icon--01{
+	stroke: #000;
+}
+
+.icon--star-on{
+	width: 16px;
+	height: 16px;
+	fill: #ffc107;
+}
+
+.icon--arrow-left{
+	width: 44px;
+	height: 44px;
+	fill: var(--9d9d9d);
+
+	transition: all 0.4s ease-in;
+	&:hover {
+		fill: var(--f6623e);
+	}
+}
+
+.icon--arrow-right{
+	width: 44px;
+	height: 44px;
+	fill: var(--9d9d9d);
+
+	transition: all 0.4s ease-in;
+	&:hover {
+		fill: var(--f6623e);
+	}
+}

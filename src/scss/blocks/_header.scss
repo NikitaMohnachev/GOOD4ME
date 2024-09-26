@@ -1,0 +1,16 @@
+.header {
+	padding: 28px 0 29px;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.header__logo {
+	flex-shrink: 0;
+}
+
+
+

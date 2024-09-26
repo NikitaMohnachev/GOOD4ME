@@ -1,0 +1,26 @@
+[
+    {
+        "img": "01",
+        "desc": "MULTI-VITAMIN (3 MONTH SUPPLY)",
+        "newPrice": "39.95",
+        "oldPrice": "199.75"
+    },
+    {
+        "img": "02",
+        "desc": "VITAMIN C: IMMUNITY SUPPORT",
+        "newPrice": "35.50",
+        "oldPrice": "123.75"
+    },
+    {
+        "img": "03",
+        "desc": "DELTA-VITAMIN (6 MONTH SUPPLY)",
+        "newPrice": "29.65",
+        "oldPrice": "79.87"
+    },
+    {
+        "img": "04",
+        "desc": "APPLE CIDER VINEGAR",
+        "newPrice": "78.50",
+        "oldPrice": "150"
+    }
+]

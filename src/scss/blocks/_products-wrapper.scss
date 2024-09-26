@@ -1,0 +1,44 @@
+.section-products__wrapper {
+    position: relative;
+}
+
+.section-products__link{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.section-products__desc {
+    margin-top: 23px;
+
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    color: var(--000000);
+}
+
+.section-products__prices {
+    margin-top: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+}
+
+.section-products__prices-new {
+    color: var(--f6623e);
+}
+
+.section-products__prices-old {
+    text-decoration: line-through;
+    color: var(--9d9d9d);
+}

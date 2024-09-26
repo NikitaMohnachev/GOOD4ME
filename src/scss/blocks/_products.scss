@@ -1,0 +1,29 @@
+.section-products {
+    margin-top: 137px;
+}
+
+.section-products__title {
+    margin-bottom: 58px;
+
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 89%;
+    color: var(--000000);
+}
+
+.section-products__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section-products__btn{
+    margin-top: 76px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

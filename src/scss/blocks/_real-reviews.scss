@@ -1,0 +1,33 @@
+.real-reviews {
+    margin-top: 85px;
+    height: 885px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #999;
+    background-image: url('./../../img/real-reviews/bg.jpg');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include mediaBg() {
+        background-image: url('./../../img/real-reviews/bg@2x.jpg');
+    }
+    
+}
+
+.real-reviews__container {
+    height: auto;
+    width: 1290px;
+    padding: 0 15px;
+}
+
+.real-reviews__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 106px;
+}
+

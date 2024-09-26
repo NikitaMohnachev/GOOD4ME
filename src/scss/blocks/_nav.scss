@@ -1,0 +1,20 @@
+
+.nav {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 133%;
+	color: var(--454545);
+}
+.nav__list {
+	display: flex;
+	column-gap: 30px;
+
+	a {
+		color: var(--454545);
+	}
+
+	a.active {
+		color: var(--f6623e);
+	}
+}

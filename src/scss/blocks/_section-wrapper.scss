@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 284px;
+}
+
+.wrapper__img{
+    width: 66px;
+    height: 73px;
+}
+
+.wrapper__title-1 {
+    margin-top: 25px;
+
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133%;
+    color: var(--000000);
+}
+.wrapper__title-2 {
+    margin-top: 11px;
+
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: var(--9d9d9d);
+}
